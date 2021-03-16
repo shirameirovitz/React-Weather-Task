@@ -20,7 +20,7 @@ export default class DayWeather extends Component {
 
 DayWeather.defaultProps = {
   day: "happy",
-  image: "./cloudy.png",
+  image: "https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png",
   minTemperature: "20",
   maxTemperature: "38",
 };
