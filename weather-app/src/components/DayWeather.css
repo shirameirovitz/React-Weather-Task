@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.week-weather {
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-direction:row-reverse;
+  height:100vh;
+  padding: 0 6rem;
+}
+.day-weather {
+  text-align: center;
+  min-width: 4rem;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 0.4rem;
+  padding: 1rem 1rem;
+  border:0.08rem solid rgb(255, 255, 255)
+}
+.day-weather:hover {
+  background-color:rgb(252, 252, 252);
+  border:0.08rem solid rgb(243, 243, 243);
+}
+.temperature-div {
+display:flex;
+justify-content:space-around
+
+}
+.min-temperature{
+color:   rgb(177, 177, 177);
+}

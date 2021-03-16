@@ -1,5 +1,5 @@
-import "./App.css";
-import DayWeather from "./components/DayWeather";
+import "./DayWeather.css";
+import DayWeather from "./DayWeather";
 
 class Day {
   constructor(day, image, minTemperature, maxTemperature) {
