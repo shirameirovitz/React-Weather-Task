@@ -1,4 +1,5 @@
 import "./App.css";
+import DayWeather from "./components/DayWeather";
 
 class Day {
   constructor(day, image, minTemperature, maxTemperature) {
@@ -18,3 +19,22 @@ const weekDays = [
   new Day("friday"),
   new Day("Saturday"),
 ];
+
+function App() {
+  return (
+    <div className="week-weather">
+      {weekDays.map((item, index) => {
+        return (
+          <DayWeather
+            key={index}
+            day={item.day}
+            image={item.image}
+            minTemperature={item.minTemperature}
+            maxTemperature={item.maxTemperature}
+          />
+        );
+      })}
+    </div>
+  );
+}
+export default App;
